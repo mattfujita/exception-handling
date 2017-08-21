@@ -52,7 +52,7 @@ public class ExceptionHandlingController {
         } catch(NumberFormatException num) {
         	mv.addObject("integerResult", "not an integer");
         }
-        return mv;
+        return mv; 
     }
 
     @PostMapping("/handleDecimal")
